@@ -1,0 +1,83 @@
+body{
+  background: rgb(230,230,230);
+  color:rgb(50,50,50);
+}
+
+h1 {
+    color: #424874;
+    font-size: 32px;
+    font-family: PT serif;
+    font-weight: 900;
+
+}
+
+h2 {
+    color: #00a8cc;
+    font-family: Chalkboard;
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 500;
+
+}
+
+h3 {
+    color: #27496D;
+    font-family: Muna;
+    font-size: 15px;
+    font-weight: lighter;
+    font-weight: 200;
+
+
+}
+a {
+  font-family: Kefa;
+  color: #7f78d2;
+  font-size: 12px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  font-family: Kefa;
+  color: purple;
+  text-decoration: none;
+}
+
+p {color: #575F7D;
+    font-family: Kokonor;
+    font-size: 15px;
+    font-weight: lighter;
+    font-weight: 200;
+  }
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.btn-purple {
+    background-color: #1eb2a6;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.img-circle{
+border-radius: 80%
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
